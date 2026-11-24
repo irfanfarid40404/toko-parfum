@@ -3,6 +3,7 @@
     import BookOpen from '@lucide/svelte/icons/book-open';
     import FolderGit2 from '@lucide/svelte/icons/folder-git-2';
     import LayoutGrid from '@lucide/svelte/icons/layout-grid';
+    import Package from '@lucide/svelte/icons/package';
     import type { Snippet } from 'svelte';
     import AppLogo from '@/components/AppLogo.svelte';
     import NavFooter from '@/components/NavFooter.svelte';
@@ -32,6 +33,11 @@
             title: 'Dashboard',
             href: dashboard(),
             icon: LayoutGrid,
+        },
+        {
+            title: 'Produk',
+            href: '/products',
+            icon: Package,
         },
     ];
 
